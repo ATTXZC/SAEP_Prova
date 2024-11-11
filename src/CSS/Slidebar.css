@@ -1,0 +1,78 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    left: 0;
+  }
+  
+  .logo {
+    position: relative;
+    left: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .metrics {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .metrics div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metrics div span {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .login-button {
+    position: relative;
+    top: 12px;
+    padding: 10px 20px;
+    width: 250px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #e64a19;
+  }
+  
+
+  .sidebar::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../imgs/logo_sabor_do_brasil.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  

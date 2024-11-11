@@ -1,0 +1,17 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-home {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .post-list {
+    width: 100%;
+    max-width: 500px;
+  }
+  
